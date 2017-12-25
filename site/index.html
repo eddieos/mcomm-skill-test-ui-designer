@@ -1,1 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roove - Responsive Website</title>
 
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Custom styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Royal slider-->
+    <script class="rs-file" src="js/royalslider/jquery-1.8.3.min.js"></script>
+    <script class="" src="js/royalslider/jquery.royalslider.min.js"></script>
+    <link class="" href="js/royalslider/royalslider.css" rel="stylesheet">
+    <script src="js/royalslider/jquery.royalslider.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+
+</head>
+<body id="main">
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0);" class="" data-toggle="modal" data-target="#loginModal">Login</a>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<div class="hero">
+    <a href="#" class="logo">
+        <img src="images/groove-02.png">
+    </a>
+    <a href="javascript:void(0);" class="login main" data-toggle="modal" data-target="#loginModal">Login</a>
+
+    <div class="mobile-menu" onclick="openNav()"><img src="images/mobile.png"></div>
+
+    <div class="content text-center">
+        <div class="title">Introducing A New Wave Of <span id="app"></span></div>
+        <p class="text">This is a paragraph, lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <div style="text-align: center; padding-top: 30px">
+            <a href="#" class="button">Get Started</a>
+        </div>
+    </div>
+    <script>
+        var app = document.getElementById('app');
+
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+
+        typewriter.typeString('Awesomeness')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('Branding')
+            .pauseFor(1500)
+            .start();
+    </script>
+    <div class="hero-image text-center animated slideInUp">
+        <img class="img-fluid" src="images/image-1.png">
+    </div>
+</div><!-- /.container -->
+
+
+<section class="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 animated slideInLeft">
+                <p class="label">This is a colourful label</p>
+                <h2>This is a h2 header right here many words</h2>
+                <p class="text">This is a paragraph, lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took
+                    a
+                    galley of type and scrambled it to make a type specimen book.</p>
+
+            </div>
+            <div class="col-md-7 text-right animated slideInRight">
+                <img class="img-fluid" src="images/image-2.png">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <p class="label">This is a colourful label</p>
+                <h2>This is a h2 header right here many words</h2>
+                <p class="text">This is a paragraph, lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took
+                    a
+                    galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        <div class="section group">
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-1.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-2.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-3.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-4.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-4.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-5.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-6.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-7.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-8.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+            <div class="col span_1_of_5 span_1_of_2 ">
+                <img src="images/benefit-9.png">
+                <p class="text">This is benefit text. Just a little bit here.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 animated fadeInLeft">
+                <p class="text">Dare to be different?</p>
+                <h2>WHY NOT?</h2>
+            </div>
+            <div class="col-md-7 animated fadeInRight">
+                <img class="img-fluid" src="images/babe.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="samples text-center">
+    <h2>This is a h2 header right here many words</h2>
+    <p class="text">This is a paragraph, lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.</p>
+
+    <div id="gallery-1" class="royalSlider rsDefault visibleNearby">
+        <a class="rsImg" href="images/screen.png" data-rsw="1400" data-rsh="775"></a>
+        <a class="rsImg" href="images/screen.png" data-rsw="1400" data-rsh="775"></a>
+        <a class="rsImg" href="images/screen.png" data-rsw="1400" data-rsh="775"></a>
+        <a class="rsImg" href="images/screen.png" data-rsw="1400" data-rsh="775"></a>
+    </div>
+
+    <p style="padding-top: 0" class="text">This is a paragraph, lorem Ipsum is simply dummy text of the printing and
+        typesetting industry.</p>
+    <div class="nav-buttons">
+        <a href="javascript:void(0);" class="my-prev-button"><i class="fa fa-chevron-left"></i></a>
+        <a href="javascript:void(0);" class="my-next-button"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+
+    <script id="addJS">// Important note! If you're adding CSS3 transition to slides, fadeInLoadedSlide should be disabled to avoid fade-conflicts.
+    jQuery(document).ready(function ($) {
+        var si = $('#gallery-1').royalSlider({
+            addActiveClass: true,
+            arrowsNav: false,
+            controlNavigationSpacing: 0,
+            controlNavigation: 'none',
+            autoScaleSlider: true,
+            autoScaleSliderWidth: 960,
+            autoScaleSliderHeight: 340,
+            loop: true,
+            fadeinLoadedSlide: false,
+            globalCaption: true,
+            keyboardNavEnabled: true,
+            globalCaptionInside: false,
+
+            visibleNearby: {
+                enabled: true,
+                centerArea: 0.5,
+                center: true,
+                breakpoint: 650,
+                breakpointCenterArea: 0.64,
+                navigateByCenterClick: true,
+            }
+        })
+        // get hold of royal-slider object
+        var slider = $('#gallery-1').data('royalSlider');
+// previous button
+        $('.my-prev-button').on('click', function () {
+            slider.prev();
+        });
+        $('.my-next-button').on('click', function () {
+            slider.next();
+        });
+    });
+    </script>
+
+</section>
+
+<section class="final">
+    <div class="container text-center">
+        <h1 class="title">You're probably missing out on something awesome right now.</h1>
+        <p class="text">This is a paragraph, lorem Ipsum is simply dummy text of the printing and
+            typesetting industry.</p>
+        <div style="text-align: center; padding-top: 40px">
+            <a href="#" class="button">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container-fluid">
+
+        <div class="section group">
+            <div class="col span_1_of_4 span_1_of_2 div-block-1">
+                <a href="#" class="footer-logo"><img src="images/footer.png"></a>
+                <ul class="block-1">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col span_1_of_4 span_1_of_2 div-block-2">
+                <ul class="block-2">
+                    <li><a href="#">Terms &amp; Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+                <p>©Comp any Name. Registered in England & Wales. No. 12345</p>
+            </div>
+            <div class="col span_1_of_4 span_1_of_2 div-block-3">
+                <ul class="block-3">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Linked In</a></li>
+                    <li><a href="#">Google +</a></li>
+                </ul>
+            </div>
+            <div class="col span_1_of_4 span_1_of_2 div-block-4">
+                <p style="color: #FFFFFF;">This is SEO text right here. Lorem Ipsum is simply dummy text of the
+                    printing
+                    and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. This is
+                    SEO
+                    text right here. Lorem Ipsum is simply dummy text.</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="logo">
+    </a>
+</footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                               placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="text-center button-div">
+                        <a href="javascript:void(0);" class="button text-center">Submit</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
